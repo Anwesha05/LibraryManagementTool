@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LibraryManagementTool</string>
+    <string name="email">Email\n</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome_admin">Welcome, Admin\n</string>
 </resources>
