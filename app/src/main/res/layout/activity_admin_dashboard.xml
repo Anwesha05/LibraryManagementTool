@@ -6,261 +6,261 @@
     android:padding="16dp"
     android:background="#F5F5F5"> <!-- Light gray background -->
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="vertical"-->
-<!--        android:background="#FFFFFF"-->
-<!--        android:padding="16dp"-->
-<!--        android:layout_marginBottom="16dp"-->
-<!--        android:elevation="4dp"> &lt;!&ndash; Elevation for shadow effect &ndash;&gt;-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"> <!-- Elevation for shadow effect -->
 
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:fontFamily="@font/alexandria"-->
-<!--            android:paddingBottom="16dp"-->
-<!--            android:text="@string/welcome_admin"-->
-<!--            android:textColor="#333333"-->
-<!--            android:textSize="24sp" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alexandria"
+            android:paddingBottom="16dp"
+            android:text="@string/welcome_admin"
+            android:textColor="#333333"
+            android:textSize="24sp" />
 
-<!--        &lt;!&ndash; Top Buttons &ndash;&gt;-->
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="horizontal"-->
-<!--            android:gravity="center_horizontal"-->
-<!--            android:layout_marginBottom="16dp">-->
+        <!-- Top Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp">
 
-<!--            <Button-->
-<!--                android:id="@+id/btnMaintenance"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="50dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:text="Maintenance"-->
-<!--                android:layout_marginEnd="8dp"-->
-<!--                android:background="@color/colorPrimaryDark"-->
-<!--                android:textColor="@android:color/white"-->
-<!--                android:minHeight="48dp" />-->
+            <Button
+                android:id="@+id/btnMaintenance"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Maintenance"
+                android:layout_marginEnd="8dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:minHeight="48dp" />
 
-<!--            <Button-->
-<!--                android:id="@+id/btnReports"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="48dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:text="Reports"-->
-<!--                android:layout_marginEnd="8dp"-->
-<!--                android:background="@color/colorPrimaryDark"-->
-<!--                android:textColor="@android:color/white"-->
-<!--                android:minHeight="48dp" />-->
+            <Button
+                android:id="@+id/btnReports"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Reports"
+                android:layout_marginEnd="8dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:minHeight="48dp" />
 
-<!--            <Button-->
-<!--                android:id="@+id/btnTransactions"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="50dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:text="Transactions"-->
-<!--                android:background="@color/colorPrimaryDark"-->
-<!--                android:textColor="@android:color/white"-->
-<!--                android:minHeight="48dp" />-->
-<!--        </LinearLayout>-->
+            <Button
+                android:id="@+id/btnTransactions"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Transactions"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:minHeight="48dp" />
+        </LinearLayout>
 
-<!--        &lt;!&ndash; Title &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:id="@+id/tvTitle"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Product Details"-->
-<!--            android:background="@color/colorAccent"-->
-<!--            android:textSize="18sp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:gravity="center"-->
-<!--            android:layout_marginBottom="16dp"-->
-<!--            android:textColor="#333333" />-->
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Details"
+            android:background="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textColor="#333333" />
 
-<!--        &lt;!&ndash; Table Layout &ndash;&gt;-->
-<!--        <TableLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:stretchColumns="0,1,2">-->
+        <!-- Table Layout -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2">
 
-<!--            &lt;!&ndash; Header Row &ndash;&gt;-->
-<!--            <TableRow-->
-<!--                android:background="@color/colorPrimary">-->
+            <!-- Header Row -->
+            <TableRow
+                android:background="@color/colorPrimary">
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp"-->
-<!--                    android:text="Code No From"-->
-<!--                    android:textColor="@android:color/white"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:layout_weight="1" />-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Code No From"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp"-->
-<!--                    android:text="Code No To"-->
-<!--                    android:textColor="@android:color/white"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:layout_weight="1" />-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Code No To"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp"-->
-<!--                    android:text="Category"-->
-<!--                    android:textColor="@android:color/white"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:layout_weight="1" />-->
-<!--            </TableRow>-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Category"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </TableRow>
 
-<!--            &lt;!&ndash; Data Rows &ndash;&gt;-->
-<!--            <TableRow>-->
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="SC(B/M)000001"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+            <!-- Data Rows -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="SC(B/M)000001"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="SC(B/M)000004"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="SC(B/M)000004"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Science"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
-<!--            </TableRow>-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Science"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
 
-<!--            <TableRow>-->
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="EC(B/M)000001"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="EC(B/M)000001"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="EC(B/M)000004"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="EC(B/M)000004"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Economics"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
-<!--            </TableRow>-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Economics"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
 
-<!--            <TableRow>-->
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="FC(B/M)000001"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="FC(B/M)000001"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="FC(B/M)000004"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="FC(B/M)000004"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Fiction"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
-<!--            </TableRow>-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fiction"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
 
-<!--            <TableRow>-->
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="CH(B/M)000001"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="CH(B/M)000001"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="CH(B/M)000004"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="CH(B/M)000004"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Children"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
-<!--            </TableRow>-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Children"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
 
-<!--            <TableRow>-->
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="PD(B/M)000001"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="PD(B/M)000001"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="PD(B/M)000004"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="PD(B/M)000004"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
 
-<!--                <TextView-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Personal Development"-->
-<!--                    android:textColor="#333333"-->
-<!--                    android:gravity="center"-->
-<!--                    android:padding="8dp" />-->
-<!--            </TableRow>-->
-<!--        </TableLayout>-->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Development"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+        </TableLayout>
 
-<!--        &lt;!&ndash; Log Out Button &ndash;&gt;-->
-<!--        <Button-->
-<!--            android:id="@+id/btnLogout"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center_horizontal"-->
-<!--            android:layout_marginTop="16dp"-->
-<!--            android:backgroundTint="#F60000"-->
-<!--            android:text="Log Out"-->
-<!--            android:textColor="@android:color/white" />-->
-<!--    </LinearLayout>-->
+        <!-- Log Out Button -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#F60000"
+            android:text="Log Out"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
 </ScrollView>
