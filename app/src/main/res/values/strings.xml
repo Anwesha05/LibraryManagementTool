@@ -4,4 +4,9 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="welcome_admin">Welcome, Admin\n</string>
+    <string name="membership">Membership</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="books_movies">Books/Movies</string>
+    <string name="user_management">User Management</string>
 </resources>

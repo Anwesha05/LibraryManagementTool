@@ -28,7 +28,7 @@ class SplashActivity : AppCompatActivity() {
 
         val logoAnimation=AnimationUtils.loadAnimation(this, R.anim.fade_in)
         // Reference your logo or any view
-        val ivLogo: ImageView = findViewById(R.id.SplashLogo)
+        val ivLogo: ImageView = findViewById(R.id.ivLogo)
         ivLogo.startAnimation(logoAnimation)
 
         logoAnimation.setAnimationListener(object : Animation.AnimationListener{

@@ -1,10 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MaintenanceActivity">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="#F5F5F5">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Membership Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp"
+        android:background="@drawable/rounded_background"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/membership"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/material_dynamic_tertiary20" />
+
+        <Button
+            android:id="@+id/btnAddMembership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            style="@style/CustomButtonStyle" />
+
+        <Button
+            android:id="@+id/btnUpdateMembership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:layout_marginStart="8dp"
+            style="@style/CustomButtonStyle" />
+    </LinearLayout>
+
+    <!-- Books/Movies Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp"
+        android:background="@drawable/rounded_background"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/books_movies"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/material_dynamic_tertiary20" />
+
+        <Button
+            android:id="@+id/btnAddBooksMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            style="@style/CustomButtonStyle" />
+
+        <Button
+            android:id="@+id/btnUpdateBooksMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:layout_marginStart="8dp"
+            style="@style/CustomButtonStyle" />
+    </LinearLayout>
+
+    <!-- User Management Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp"
+        android:background="@drawable/rounded_background"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_management"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/material_dynamic_tertiary20" />
+
+        <Button
+            android:id="@+id/btnAddUserManagement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            style="@style/CustomButtonStyle" />
+
+        <Button
+            android:id="@+id/btnUpdateUserManagement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:layout_marginStart="8dp"
+            style="@style/CustomButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>
