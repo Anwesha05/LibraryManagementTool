@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "232632826066",
+    "project_id": "kitab-ghar-e6078",
+    "storage_bucket": "kitab-ghar-e6078.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232632826066:android:baccc631b482a0ab97550b",
+        "android_client_info": {
+          "package_name": "com.example.librarymanagementtool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq52bJLgRkPAiYSefacsLO8IdKPDtYTtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
